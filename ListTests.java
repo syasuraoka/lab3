@@ -1,9 +1,9 @@
 import static org.junit.Assert.*;
 import org.junit.*;
 
-public class ArrayTests {
-	@Test 
-	public void testReverseInPlace() {
+public class ListTests {
+    @Test 
+	public void testfilter() {
     int[] input1 = { 3, 4 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 4, 3 }, input1);
